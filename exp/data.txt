@@ -1,0 +1,75 @@
+MAKING SENSE OF THE DATA:
+
+Receive reports about adverse events (side effects or abnormal things) 
+that may be associated with vaccines.
+
+VAERS is used to continually monitor reports to determine whether 
+any vaccine or vaccine lot (Impfstoffmenge) has a higher than 
+expected rate of events (more side effects than usual).
+
+Disclaimer:
+Doctors and other vaccine providers are encouraged to report 
+adverse events, even if they are not certain that the 
+vaccination was the cause.
+--> introduces uncertainty to analysis
+Since it is difficult to distinguish a coincidental event 
+(zufällige Krankheitserscheinung) from one truly caused 
+by a vaccine, the VAERS database will contain events of 
+both types.
+In addition, it is often the case that more than one 
+vaccine was administered, making it difficult to know to 
+which of the vaccines the event might be attributed.
+--> What can we do to fix this? Omitting these cases
+    would leave only a few apparently.
+VAERS data are from a passive surveillance system and 
+represent unverified reports of health events that occur 
+after vaccination. Such data are subject to limitations of 
+under-reporting, simultaneous administration of multiple 
+vaccine antigens, reporting bias, and lack of incidence 
+rates in unvaccinated comparison groups.
+it is important to note that for any reported event, 
+no cause and effect relationship has been established.
+There are no duplicate reports of a case, even if it changed.
+A given report may meet more than one criterion for 
+classification as “serious.”
+Note that the inclusion of events in VAERS data does not 
+infer causality.
+
+Purpose of this dataset:
+VAERS researchers apply procedures and methods of analysis 
+to help us closely monitor the safety of vaccines. When a 
+concern arises, action is taken.
+The primary purpose for maintaining the database is to 
+serve as an early warning or signaling system for adverse 
+events not detected during pre-market testing.
+
+VAERS data is encoded in a standard fashion that is used
+worldwide for medical datasets (MedDRA).
+MedDRA is a rich and highly specific standardised medical 
+terminology to facilitate sharing of regulatory information 
+internationally for medical products such as vaccines.
+
+Data format:
+VAERSDATA provides information about the person.
+VAERSSYMPTOMS lists all the symptoms of that person.
+VAERSVAX specifies all the information about that persons vaccination status.
+The three csv files are connected by the VAERS_ID that 
+is the personal identification number of the above person.
+A detailed description of each column in each of these three
+csv files and also vaccine codes is found in the 
+VAERS Use Guide PDF.
+
+Problems with the dataset:
+As stated above, the dataset is incomplete due to 
+under-reporting. No cases are included where no adverse 
+event occured. So, the total number of vaccinations is 
+missing and the reports are incomplete. As a result, no
+total probabilities can be calculated.
+
+In general (this is also stated in the Disclaimer), the 
+dataset can be the bases for qualitative analysis but 
+not much more. Incompleteness (also varying 
+incompleteness (past to present)) and lacking established 
+causation of adverse events are the main problems. Though, 
+qualitative findings can give a hint on what is worth 
+looking into in more detail.

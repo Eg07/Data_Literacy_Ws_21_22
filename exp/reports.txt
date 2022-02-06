@@ -1,0 +1,7 @@
+Summarize here the contents of various reports that 
+discuss the VAERS dataset:
+
+https://vaersanalysis.info/2022/01/14/vaers-summary-for-covid-19-vaccines-through-01-07-2022/
+Comparison of total numbers of adverse events to other 
+vaccines. Seems unfair, since the total numbers are not 
+normalized by the total number of vaccine recipients. 

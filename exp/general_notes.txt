@@ -1,0 +1,5 @@
+This is a text file for storing loose ideas and comments.
+
+Use other text files or jupyter notebooks to work on
+real experiments and document its process.
+

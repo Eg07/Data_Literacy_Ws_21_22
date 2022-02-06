@@ -1,0 +1,13 @@
+What can be done with VAERS?
+
+VAERS can also be used to see which preexisting health 
+conditions may be associated with certain types of reactions, 
+and this can lead to contraindications, as in the case of 
+allergic reactions. The reporting system can also notice 
+vaccine lots associated with an unusually high number of 
+reported events (which might mean a rare case of a vaccine 
+lot being contaminated) and it can identify specific 
+locations in the United States where events are clustering.
+
+And it provides that country with transparent, country-wide 
+statistics on vaccine-related adverse events.
